@@ -6,10 +6,9 @@ module OmniAuth
       option :name, "intuit"
 
       option :client_options, {
-        :site => 'https://oauth.intuit.com',
-        :request_token_path => '/oauth/v1/get_request_token',
-        :access_token_path => '/oauth/v1/get_access_token',
-        :authorize_url => "https://workplace.intuit.com/Connect/Begin"
+        :site => 'https://oauth.platform.intuit.com/op/v1',
+        :access_token_path => 'https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer',
+        :authorize_url => 'https://appcenter.intuit.com/connect/oauth2'
       }
 
       # uid{ raw_info['id'] }
