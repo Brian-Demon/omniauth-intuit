@@ -9,7 +9,6 @@ module OmniAuth
         :site => 'https://oauth.platform.intuit.com/op/v1',
         :access_token_path => 'https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer',
         :authorize_url => 'https://appcenter.intuit.com/connect/oauth2',
-        :scope => 'openid'
       }
 
       # uid{ raw_info['id'] }
