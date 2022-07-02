@@ -11,6 +11,10 @@ module OmniAuth
         :authorize_url => 'https://appcenter.intuit.com/connect/oauth2',
       }
 
+      def callback_url
+        full_host + script_name + callback_path
+      end
+
       # uid{ raw_info['id'] }
 
       # info do
