@@ -7,7 +7,7 @@ module OmniAuth
 
       option :client_options, {
         :site => 'https://oauth.platform.intuit.com/op/v1',
-        :access_token_url => 'https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer',
+        :token_url => 'https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer',
         :authorize_url => 'https://appcenter.intuit.com/connect/oauth2',
       }
 
