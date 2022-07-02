@@ -1,8 +1,8 @@
-require 'omniauth/strategies/oauth'
+require 'omniauth/strategies/oauth2'
 require 'crack'
 module OmniAuth
   module Strategies
-    class Intuit < OmniAuth::Strategies::OAuth
+    class Intuit < OmniAuth::Strategies::OAuth2
       option :name, "intuit"
 
       option :client_options, {
